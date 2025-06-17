@@ -1,0 +1,18 @@
+.title {
+	color: var(--Black-blue, #42567a);
+	font-size: 3.5rem;
+	font-weight: 700;
+	line-height: 120%;
+	max-width: 22.0625rem;
+	padding-left: 1.4em;
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		background: linear-gradient(to bottom, #3877ee 0%, #ef5da8 100%);
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 5px;
+	}
+}
