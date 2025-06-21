@@ -1,0 +1,16 @@
+.years {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5em;
+	color: var(--Iris-100, #5d5fef);
+	text-align: center;
+	font-size: clamp(3.5rem, 1.7rem + 9vw, 12.5rem); // from 200px to 56px
+	font-style: normal;
+	font-weight: 700;
+	line-height: 80%;
+	letter-spacing: -0.25rem;
+	&__to {
+		color: var(--Fuschia-100, #ef5da8);
+	}
+}
